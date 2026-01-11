@@ -37,3 +37,5 @@ hex = "0.4.3"
 [dependencies.reqwest]
 version = "0.11.23"
 features = ["blocking"]
+[patch.crates-io]
+once_cell = "=1.17.2"
